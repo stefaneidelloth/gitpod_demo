@@ -5,13 +5,17 @@
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks: 
-  - before: pip install -r requirements.txt
+  - name: Install python dependencies
+    before: pip install -r requirements.txt
     command: gp open notebook.ipynb
 
+  - name: Start web server
+    init: python -m http.server 8080
+
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-#ports:
-#  - port: 3000
-#    onOpen: open-preview
+ports:
+  - port: 8080
+    onOpen: open-preview
 
 # Configure Visual Studio Code 
 vscode:

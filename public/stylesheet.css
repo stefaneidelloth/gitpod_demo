@@ -1,0 +1,85 @@
+html, * {
+  font-family: FrutigerLTW02, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {	
+	padding: 5px;
+}
+
+h1 {
+	color: #1f82c0
+}
+
+details {
+	margin-bottom: 10px;
+}
+
+.branding {
+  display: block-inline;
+  float: right;
+}
+
+.tooltip-table {	
+	font-size: 12;
+}
+
+.project-description {
+    background-color: #f1f1f1;   
+	padding: 1px;
+	padding-left:10px;
+	margin-bottom: 10px;
+	border-radius:5px;
+}
+
+.license {
+	background-color: #f1f1f1;	
+	padding: 1px;
+	padding-left:10px; 
+	margin-bottom: 10px; 
+	border-radius:5px;	
+}
+
+.download-container {
+	background-color: #f1f1f1;  
+	max-width: 300px; 
+	padding: 1px;
+	padding-left:10px;
+	margin-bottom: 10px;
+	border-radius:5px;
+}
+
+.download {
+	margin-bottom: 10px;
+}
+
+.toolbar-table {
+	padding-right: 10px;	
+}
+
+.toolbar-table td {
+	padding-right: 20px;	
+}
+
+.left-map {
+    height: 800px;
+}
+
+.right-map {
+    height:800px;
+}
+
+.choropleth-legend {
+	background-color: white;
+	border-radius: 5px;	
+	border: 2px solid rgba(0,0,0,0.2);
+	padding: 10px;	
+}
+
+.choropleth-legend-entry {
+	border: 1px solid black;
+	padding-left: 15px;	
+}
+
+.leaflet-container {
+    background-color:#aad3df;
+}
