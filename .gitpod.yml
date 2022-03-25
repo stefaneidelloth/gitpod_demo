@@ -6,7 +6,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   # install python
-  - before: pyenv install 3.10.4
+  - before: pyenv install 3.10.2
   # install poetry and python dependencies; also see pyproject.toml
   - before: pip install poetry
     init: poetry install
