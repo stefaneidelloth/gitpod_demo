@@ -1,5 +1,8 @@
-FROM gitpod/workspace-full-vnc # https://hub.docker.com/r/gitpod/workspace-full-vnc
+# https://hub.docker.com/r/gitpod/workspace-full-vnc
+FROM gitpod/workspace-full-vnc 
 
-RUN sudo apt update
+USER root
+
+RUN apt update
 
 # RUN pyenv install 3.10.4
