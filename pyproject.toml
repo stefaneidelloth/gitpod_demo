@@ -5,7 +5,7 @@ description = "I use this project to learn how to configure a GitPod workspace f
 authors = ["Stefan Eidelloth"]
 
 [tool.poetry.dependencies]
-python = "3.12"
+python = "3.10.4"
 
 [tool.poetry.dev-dependencies]
 
