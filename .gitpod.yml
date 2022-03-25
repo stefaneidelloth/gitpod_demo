@@ -1,5 +1,7 @@
-image:
-  file: .gitpod.Dockerfile 
+# Uncomment this to use custom docker file => will take longer to open the workspace
+# Also see: https://www.gitpod.io/docs/config-docker#custom-docker-image
+# image:
+#  file: .gitpod.Dockerfile 
 
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
