@@ -13,3 +13,9 @@ tasks:
 #ports:
 #  - port: 3000
 #    onOpen: open-preview
+
+# Configure Visual Studio Code 
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-toolsai.jupyter

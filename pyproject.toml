@@ -6,6 +6,7 @@ authors = ["Stefan Eidelloth"]
 
 [tool.poetry.dependencies]
 python = "3.10.2"
+matplotlib = "3.5.1"
 
 [tool.poetry.dev-dependencies]
 
