@@ -1,0 +1,118 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4413,
+          49.0283
+        ]
+      },
+      "properties": {
+        "__comment__": "Following styling properies are only supported by GitHub and geojson.io, not by jupyterlab-geojson-extension",
+        "title": "A marker title",
+        "description": "A marker description",
+        "marker-size": "large",
+        "marker-symbol": "bus",
+        "marker-color": "#00ff00"       
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+        "__comment__": "Following styling properies are only supported by GitHub and geojson.io, not by jupyterlab-geojson-extension",
+        "title": "A polygon title",
+        "description": "A polygon description",      
+        "stroke": "blue",
+        "stroke-opacity": 1,
+        "stroke-width": 3,
+        "fill": "red",
+        "fill-opacity": 1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.441339917480946,
+              49.02830006725346
+            ],
+            [
+              8.4415,
+              49.028359203081195
+            ],
+            [
+              8.4415,
+              49.02831699461656
+            ],
+            [
+              8.441305048763752,
+              49.02825873808307
+            ],
+            [
+              8.441339917480946,
+              49.02830006725346
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "__comment__": "Following styling properies are only supported by GitHub and geojson.io, not by jupyterlab-geojson-extension",
+        "title": "A polygon title",
+        "description": "A polygon description",      
+        "stroke": "orange",
+        "stroke-opacity": 1,
+        "stroke-width": 3       
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4414,
+            49.028402510687414
+          ],
+          [
+            8.4416,
+            49.028388661050954
+          ],
+          [
+            8.4416,
+            49.0286
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "__comment__": "Following styling properies are only supported by GitHub and geojson.io, not by jupyterlab-geojson-extension",
+        "title": "A faked circle title",
+        "description": "A faked circle description",      
+        "stroke": "lightblue",
+        "stroke-opacity": 1,
+        "stroke-width": 30       
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.441,
+            49.0284
+          ],
+          [
+            8.441,
+            49.0284
+          ]          
+        ]
+      }
+    }
+    
+    
+  ]
+}
